@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  font-family: "Single Day", cursive;
+}
+
+* {
+  background-color: rgb(229, 186, 193);
+  color: rgb(246, 221, 225);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-div p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: #f0f0f0;
+  font-weight: 1000px;
+  font-size: 28px;
+  color: rgb(229, 186, 193);
+}
+
+.centered-div {
+  background-color: #f0f0f0;
+  padding: 200px 290px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  background-image: url(mail.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.centered-div:hover {
+  background-color: #ccc; /* Change the background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow on hover */
+  transform: scale(1.1); /* Scale the div on hover */
+}
+
+.container p {
+  font-size: 40px;
+  font-weight: bold;
+  color: whitel;
+}
