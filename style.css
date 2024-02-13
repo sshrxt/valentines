@@ -54,3 +54,14 @@ body {
   font-weight: bold;
   color: whitel;
 }
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Display items in a column layout */
+  align-items: center; /* Center items horizontally */
+  margin-top: 0px; /* Add margin to separate from the centered-div */
+}
+
+a {
+  text-decoration: none;
+}
